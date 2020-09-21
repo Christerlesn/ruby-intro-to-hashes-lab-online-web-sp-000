@@ -16,13 +16,6 @@ monopoly
 end
 
 def monopoly_with_second_tier
-	monopoly = {}
-monopoly[:railroads] = {}
-monopoly[:railroads][:pieces] = 4
-monopoly
-end
-
-def monopoly_with_third_tier
 monopoly = {
 	railroads: {
 		pieces: 4,
@@ -30,6 +23,10 @@ monopoly = {
 		rent_in_dollars: {}
 	}
 }
+end
+
+def monopoly_with_third_tier
+
 end
 
 def monopoly_with_fourth_tier
